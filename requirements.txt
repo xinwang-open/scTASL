@@ -1,0 +1,24 @@
+# Core dependencies
+anndata==0.11.4
+h5py==3.16.0
+igraph==0.11.8
+leidenalg==0.10.2
+matplotlib==3.10.9
+numpy==2.2.6
+pandas==2.3.3
+pybedtools==0.12.0
+scanpy==1.10.4
+scikit-learn==1.7.2
+scipy==1.15.3
+seaborn==0.13.2
+statsmodels==0.14.6
+tqdm==4.69.0
+
+# GRN inference (required for notebook 4.2)
+arboreto==0.1.6
+dask[distributed]==2026.7.1
+xgboost==3.0.0
+
+# PyTorch and PyG must be installed separately — see Installation in README.
+# torch==2.4.0  (CUDA 12.4): pip install torch==2.4.0 --index-url https://download.pytorch.org/whl/cu124
+# torch-geometric==2.6.1 and CUDA extensions: see README for the exact commands
